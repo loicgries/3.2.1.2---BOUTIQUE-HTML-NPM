@@ -1,0 +1,13 @@
+// Base class
+//
+// Requires one of the contextual, color modifier classes for `color` and
+// `background-color`.
+
+.badge {
+  // scss-docs-start badge-css-vars
+  --#{$prefix}badge-padding-t: #{$badge-padding-t};
+  --#{$prefix}badge-padding-b: #{$badge-padding-b};
+  // scss-docs-end badge-css-vars
+
+  padding: var(--#{$prefix}badge-padding-t) var(--#{$prefix}badge-padding-x) var(--#{$prefix}badge-padding-b);
+}

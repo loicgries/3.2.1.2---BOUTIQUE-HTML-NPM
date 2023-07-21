@@ -1,0 +1,66 @@
+// stylelint-disable declaration-no-important, selector-no-qualifying-type, property-no-vendor-prefix
+
+
+// Reboot
+//
+// Normalization of HTML elements, manually forked from Normalize.css to remove
+// styles targeting irrelevant browsers while applying new styles.
+//
+// Normalize is licensed MIT. https://github.com/necolas/normalize.css
+
+
+// Address
+
+address {
+  margin-bottom: 0;
+}
+
+
+// Lists
+
+ol,
+ul,
+dl {
+  margin-bottom: 0;
+}
+
+// 1. Undo browser default
+
+dd {
+  margin-bottom: 0;
+}
+
+
+// Blockquote
+
+blockquote {
+  margin: 0 0 0;
+}
+
+
+// Strong
+//
+// Add the correct font weight in Chrome, Edge, and Safari
+
+b,
+strong {
+  font-weight: $font-weight-bold;
+}
+
+
+// 1. Remove browser default top margin
+// 2. Reset browser default of `1em` to use `rem`s
+// 3. Don't allow content to break outside
+
+pre {
+  margin-bottom: 0; // 2
+}
+
+
+// Figures
+//
+// Apply a consistent margin strategy (matches our type styles).
+
+figure {
+  margin: 0 0 0;
+}

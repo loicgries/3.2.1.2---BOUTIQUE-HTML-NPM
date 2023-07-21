@@ -1,0 +1,15 @@
+// Base class
+//
+// Kickstart any navigation component with a set of style resets. Works with
+// `<nav>`s, `<ul>`s or `<ol>`s.
+
+
+//
+// Pills
+//
+
+.nav-pills {
+  .nav-link {
+    background: $info;
+  }
+}

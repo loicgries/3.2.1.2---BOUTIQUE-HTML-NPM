@@ -1,0 +1,8 @@
+// Select
+//
+// Replaces the browser default select with a custom one, mostly pulled from
+// https://primer.github.io/.
+
+.form-select {
+  -moz-padding-start: subtract($form-select-padding-x, 4px); // See https://github.com/twbs/bootstrap/issues/32636
+}

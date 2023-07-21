@@ -1,0 +1,42 @@
+// Utilities
+
+// stylelint-disable-next-line scss/dollar-variable-default
+$utilities: map-merge(
+  $utilities,
+  (
+    // scss-docs-end utils-spacing
+    // Text
+    // scss-docs-start utils-text
+    "font-weight": (
+      property: font-weight,
+      class: fw,
+      values: (
+        lighter: $font-weight-lighter,
+        thin: $font-weight-thin,
+        extralight: $font-weight-extralight,
+        light: $font-weight-light,
+        normal: $font-weight-normal,
+        medium: $font-weight-medium,
+        semibold: $font-weight-semibold,
+        bold: $font-weight-bold,
+        extrabold: $font-weight-extrabold,
+        black: $font-weight-black,
+        bolder: $font-weight-bolder
+      )
+    ),
+    "line-height": (
+      property: line-height,
+      class: lh,
+      values: (
+        1: 1,
+        sm: $line-height-sm,
+        md: $line-height-md,
+        lg: $line-height-lg,
+        base: $line-height-base,
+        xl: $line-height-xl,
+        normal: normal,
+      )
+    )
+    // scss-docs-end utils-text
+  )
+);

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<script type="module" src="resources/js/app.js"></script>
+		<title>Mes commandes - Mon compte - Ferrures et Patines</title>
+		<meta property="og:title" content="Mes commandes - Mon compte - Ferrures et Patines" />
+		{{> head }}
+	</head>
+	<body id="top" class="animaweb compte">
+		<div class="mx-auto position-relative">
+			{{> header }}
+			<div class="contenu">
+				<div class="bg-gradient">
+					<div class="flex-column flex-md-row g-0 h-100 row">
+						<div class="col-md-6">
+							<img src="resources/medias/images/header/medical.jpg" alt="" class="img-fluid" />
+						</div>
+						<div class="bg-color-cyan-degrade-cut col-md-6 d-flex flex-column flex-fill pe-2 pe-md-4 ps-2 ps-lg-4 py-2 text-white">
+							<div class="d-flex flex-column h-100 justify-content-md-center max-w-xxl-624 position-relative z-1">
+								<h1 class="fs-28 fs-lg-36 fw-black lh-sm text-uppercase">Mes commandes</h1>
+							</div>
+						</div>
+					</div>
+					<div class="container py-4 py-lg-6">
+						<nav class="navbar navbar-expand-sm py-0 text-white">
+							<div class="container-fluid px-0">
+								<div class="align-items-center bg-white d-flex d-sm-none position-relative rounded-1 w-100">
+									<div class="fs-medium me-0 navbar-brand px-2 py-0 text-uppercase">Menu de mon compte</div>
+									<a class="btn btn-secondary collapsed hamburger ms-auto stretched-link" type="button" data-bs-target="#menu" data-bs-toggle="collapse" aria-controls="menu" aria-expanded="false"><span class="fs-0 toggle"></span></a>
+								</div>
+								<div id="menu" class="collapse navbar-collapse">
+									<ul class="flex-column flex-sm-row navbar-nav w-100">
+										<li class="mt-1 mt-sm-0 nav-item">
+											<a href="compte-commandes.html" class="btn btn-sm btn-info fs-medium text-start w-100">Mes commandes</a>
+										</li>
+										<li class="ms-sm-1 mt-1 mt-sm-0 nav-item">
+											<a href="compte-coordonnees.html" class="btn btn-sm btn-primary fs-medium text-start w-100">Mes coordonnées</a>
+										</li>
+										<li class="ms-sm-1 mt-1 mt-sm-0 nav-item">
+											<a href="compte-adresses.html" class="btn btn-sm btn-primary fs-medium text-start w-100">Mes adresses</a>
+										</li>
+										<li class="ms-sm-auto mt-1 mt-sm-0 nav-item">
+											<a href="#" title="Se déconnecter" class="btn btn-sm btn-dark fs-medium text-start w-100"><i class="fa-sign-out-alt fa-solid"></i></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+						<table class="commandes mt-4">
+							<thead class="bg-primary text-white">
+								<tr>
+									<th>Commande</th>
+									<th>Date</th>
+									<th>État</th>
+									<th colspan="2">Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td data-title="Commande"><a href="#" class="text-body">n°1612</a></td>
+									<td data-title="Date"><time datetime="2022-09-02T09:04:00+00:00">02/09/2022 à 09h44</time></td>
+									<td data-title="État">En attente</td>
+									<td data-title="Total">1632,00 €<sup>HT</sup> pour 2 produits</td>
+									<td data-title="Actions" class="pe-0 py-0 text-md-end"><a href="compte-commande-1612.html" class="btn btn-info rounded-0">Voir</a></td>
+								</tr>
+								<tr>
+									<td data-title="Commande"><a href="#" class="text-body">n°1604</a></td>
+									<td data-title="Date"><time datetime="2022-09-01T10:18:00+00:00">01/09/2022 à 10h18</time></td>
+									<td data-title="État">Terminée</td>
+									<td data-title="Total">460,00 €<sup>HT</sup> pour 1 produit</td>
+									<td data-title="Actions" class="pe-0 py-0 text-md-end"><a href="#" class="btn btn-info rounded-0">Voir</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			{{> footer }}
+		</div>
+		<noscript>
+			<div class="noscript">Javascript est désactivé. Pour bénéficier d'une meilleure navigation, veuillez activer Javascript dans votre navigateur</div>
+		</noscript>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+//
+// Base styles
+//
+
+.btn {
+  &:disabled,
+  &.disabled,
+  fieldset:disabled & {
+    pointer-events: auto;
+    cursor: default;
+  }
+}

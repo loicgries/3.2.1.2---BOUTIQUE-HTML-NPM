@@ -1,0 +1,7 @@
+// stylelint-disable custom-property-empty-line-before
+
+.page-link {
+  &:focus {
+    z-index: 2;
+  }
+}

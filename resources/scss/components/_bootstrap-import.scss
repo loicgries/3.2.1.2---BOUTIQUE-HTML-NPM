@@ -1,0 +1,74 @@
+/* BOOTSTRAP IMPORT SCSS */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Dans la liste des composants qui sont ajoutés par bootstrap vous pouvez commenter/décommenter ceux que vous avez besoin/pas besoin.
+ * 2. Si jamais vous venez de mettre à jour Bootstrap vers une nouvelle version majeure pensez à check dans "./node_modules/bootstrap/scss/bootstrap.scss" s'il n'y a pas de nouveaux fichiers scss qui ont été ajoutés dans cette nouvelle version et qui ne sont pas proposés encore dans la liste ci-dessous.
+ */
+
+/* Bootstrap Import
+   ========================================================================== */
+// Configuration
+// @import "bootstrap/scss/bootstrap";
+
+// scss-docs-start import-stack
+// Configuration
+@import "bootstrap/scss/functions";
+@import "bootstrap-custom/variables"; // animaweb
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap-custom/maps"; // animaweb
+@import "bootstrap/scss/utilities";
+@import "bootstrap-custom/utilities"; // animaweb
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap-custom/reboot"; // animaweb
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap-custom/tables"; // animaweb
+@import "bootstrap/scss/forms";
+@import "bootstrap-custom/forms/floating-labels"; // animaweb
+@import "bootstrap-custom/forms/form-check"; // animaweb
+@import "bootstrap-custom/forms/form-select"; // animaweb
+@import "bootstrap/scss/buttons";
+@import "bootstrap-custom/buttons"; // animaweb
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap-custom/nav"; // animaweb
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap-custom/pagination"; // animaweb
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+// @import "bootstrap/scss/progress";
+// @import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+// @import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+// @import "bootstrap/scss/popover";
+// @import "bootstrap/scss/carousel";
+// @import "bootstrap/scss/spinners";
+// @import "bootstrap/scss/offcanvas";
+// @import "bootstrap/scss/placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+// scss-docs-end import-stack

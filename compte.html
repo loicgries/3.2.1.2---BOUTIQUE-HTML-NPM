@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<script type="module" src="resources/js/app.js"></script>
+		<title>Mon compte - Ferrures et Patines</title>
+		<meta property="og:title" content="Mon compte - Ferrures et Patines" />
+		{{> head }}
+	</head>
+	<body id="top" class="animaweb compte">
+		<div class="mx-auto position-relative">
+			{{> header }}
+			<div class="contenu">
+				<div class="bg-gradient">
+					<div class="flex-column flex-md-row g-0 h-100 row">
+						<div class="col-md-6">
+							<img src="resources/medias/images/header/medical.jpg" alt="" class="img-fluid" />
+						</div>
+						<div class="bg-color-cyan-degrade-cut col-md-6 d-flex flex-column flex-fill pe-2 pe-md-4 ps-2 ps-lg-4 py-2 text-white">
+							<div class="d-flex flex-column h-100 justify-content-md-center max-w-xxl-624 position-relative z-1">
+								<h1 class="fs-28 fs-lg-36 fw-black lh-sm text-uppercase">Mon compte</h1>
+							</div>
+						</div>
+					</div>
+					<div class="container pt-4 pt-lg-6">
+						<div class="row">
+							<div class="col-xl-6">
+								<div class="bg-white border-4 border-secondary border-top h-100 p-4 p-lg-6">
+									<div class="text-center">
+										<h2 class="fs-24 text-uppercase">Se connecter</h2>
+										<h3 class="fs-medium fw-normal lh-base mt-1">Connectez-vous si vous possédez déjà un compte</h3>
+									</div>
+									<form action="compte-commandes.html" method="post">
+										<fieldset>
+											<div class="mx-lg-n2 row">
+												<div class="col-md-6 col-xl-12 mt-4 px-lg-2">
+													<div class="form-floating">
+														<input id="email" type="text" value="" placeholder="E-mail" class="form-control" />
+														<label for="email">E-mail</label>
+													</div>
+												</div>
+												<div class="col-md-6 col-xl-12 mt-4 px-lg-2">
+													<div class="form-floating">
+														<input id="mdp" type="password" value="" placeholder="Mot de passe" class="form-control" />
+														<label for="mdp">Mot de passe</label>
+													</div>
+												</div>
+											</div>
+											<div class="mt-4">
+												<button type="submit" class="btn btn-info d-table mx-auto">S'identifier</button>
+												<a href="compte-mot-de-passe.html" class="d-table fs-14 fst-italic mt-2 mx-auto">Mot de passe perdu ou oublié ?</a>
+											</div>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+							<div class="col-xl-6 mt-4 mt-xl-0">
+								<div class="bg-white border-4 border-secondary border-top h-100 p-4 p-lg-6">
+									<div class="mb-4 text-center">
+										<h2 class="fs-24 text-uppercase">S'inscrire</h2>
+										<h3 class="fs-medium fw-normal lh-base mt-1">...ou inscrivez-vous le cas contraire</h3>
+									</div>
+									<a href="compte-inscription.html" class="btn btn-info d-table mx-auto">S'inscrire</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{{> footer }}
+		</div>
+		<noscript>
+			<div class="noscript">Javascript est désactivé. Pour bénéficier d'une meilleure navigation, veuillez activer Javascript dans votre navigateur</div>
+		</noscript>
+	</body>
+</html>

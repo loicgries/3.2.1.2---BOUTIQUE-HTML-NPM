@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<script type="module" src="resources/js/app.js"></script>
+		<title>Récapitulatif - Panier - Ferrures et Patines</title>
+		<meta property="og:title" content="Récapitulatif - Panier - Ferrures et Patines" />
+		{{> head }}
+	</head>
+	<body id="top" class="animaweb panier">
+		<div class="mx-auto position-relative">
+			{{> header }}
+			<div class="contenu">
+				<div class="bg-gradient">
+					<div class="flex-column flex-md-row g-0 h-100 row">
+						<div class="col-md-6">
+							<img src="resources/medias/images/header/medical.jpg" alt="" class="img-fluid" />
+						</div>
+						<div class="bg-color-cyan-degrade-cut col-md-6 d-flex flex-column flex-fill pe-2 pe-md-4 ps-2 ps-lg-4 py-2 text-white">
+							<div class="d-flex flex-column h-100 justify-content-md-center max-w-xxl-624 position-relative z-1">
+								<h1 class="fs-28 fs-lg-36 fw-black lh-sm text-uppercase">Récapitulatif</h1>
+							</div>
+						</div>
+					</div>
+					<div class="container py-4 py-lg-6">
+						<ul id="steps" class="d-flex justify-content-center list-unstyled mb-4">
+							<li class="d-none d-md-block text-center">
+								<div class="bg-secondary d-flex flex-column justify-content-center mb-1 mx-auto rounded-circle text-white">
+									<i class="fa-shopping-cart fa-solid fs-32 mx-auto"></i>
+								</div>
+								<div class="fs-medium">Panier</div>
+								<div class="fs-12">(1/6)</div>
+							</li>
+							<li class="d-none d-md-block text-center">
+								<div class="bg-secondary d-flex flex-column justify-content-center mb-1 mx-auto rounded-circle text-white">
+									<i class="fa-solid fa-user fs-32 mx-auto"></i>
+								</div>
+								<div class="fs-medium">Identification</div>
+								<div class="fs-12">(2/6)</div>
+							</li>
+							<li class="d-none d-md-block text-center">
+								<div class="bg-secondary d-flex flex-column justify-content-center mb-1 mx-auto rounded-circle text-white">
+									<i class="fa-solid fa-truck fs-32 mx-auto"></i>
+								</div>
+								<div class="fs-medium">Livraison</div>
+								<div class="fs-12">(3/6)</div>
+							</li>
+							<li class="text-center">
+								<div class="bg-info d-flex flex-column justify-content-center mb-1 mx-auto rounded-circle text-white">
+									<i class="fa-list fa-solid fs-32 mx-auto"></i>
+								</div>
+								<div class="fs-medium text-info">Récapitulatif</div>
+								<div class="fs-12 text-info">(4/6)</div>
+							</li>
+							<li class="d-none d-md-block text-center">
+								<div class="bg-secondary d-flex flex-column justify-content-center mb-1 mx-auto rounded-circle text-white">
+									<i class="fa-credit-card fa-regular fs-32 mx-auto"></i>
+								</div>
+								<div class="fs-medium">Paiement</div>
+								<div class="fs-12">(5/6)</div>
+							</li>
+							<li class="d-none d-md-block text-center">
+								<div class="bg-secondary d-flex flex-column justify-content-center mb-1 mx-auto rounded-circle text-white">
+									<i class="fa-check-square fa-solid fs-32 mx-auto"></i>
+								</div>
+								<div class="fs-medium">Confirmation</div>
+								<div class="fs-12">(6/6)</div>
+							</li>
+						</ul>
+						<h2 class="fs-medium fw-bold mb-5 text-center">
+							Nous sommes à la 4ème étape de la commande,
+							<br class="d-none d-sm-block" />vérifiez le contenu de votre commande et vos informations personnelles puis passez à l'étape suivante afin de choisir un mode de paiement.
+						</h2>
+						<div class="border-4 border-secondary border-top">
+							<div class="d-table w-100">
+								<div class="bg-white d-table-row h-100">
+									<div class="align-middle bg-white border-bottom border-light d-none d-sm-table-cell p-3 photo text-center">
+										<img src="resources/medias/images/produits/produit-1.jpg" alt="Chariot de service : standard" class="img-fluid">
+									</div>
+									<div class="align-top border-bottom border-light d-table-cell p-3 p-lg-6">
+										<div class="d-sm-flex">
+											<div class="flex-fill pe-sm-4">
+												<div><a href="chariot-de-service-standard.html" class="fw-bold lh-md">Chariot de service : standard</a></div>
+												<div><a href="#" class="fs-12 fw-bold text-body">Chariots de transport</a></div>
+												<div class="fs-14 lh-md mt-1 text-light">Réf. : 000000000</div>
+											</div>
+											<div class="mt-3 mt-sm-0">
+												<div class="align-items-center align-items-sm-end d-flex flex-sm-column">
+													<div class="alert alert-info">x 1</div>
+													<div class="d-flex flex-column flex-fill justify-content-sm-center prix ps-2 ps-sm-0 pt-sm-1 text-end text-nowrap">
+														<div class="fw-bold">1280,40 €<sup>HT</sup></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="bg-secondary border-bottom border-light border-start d-table-cell delete h-100"></div>
+								</div>
+								<div class="bg-white d-table-row">
+									<div class="align-middle bg-white border-bottom border-light d-none d-sm-table-cell p-3 photo text-center">
+										<img src="resources/medias/images/produits/produit-2.jpg" alt="Chariot de service : standard" class="img-fluid">
+									</div>
+									<div class="align-top border-bottom border-light d-table-cell p-3 p-lg-6">
+										<div class="d-sm-flex">
+											<div class="flex-fill pe-sm-4">
+												<div><a href="#" class="fw-bold lh-md">Chariot de distribution de repas (liaison chaude) qui s'affiche sur 3 lignes</a></div>
+												<div><a href="#" class="fs-12 fw-bold text-body">Chariots de transport</a></div>
+												<div class="fs-14 lh-md mt-1 text-light">Réf. : 000000000</div>
+											</div>
+											<div class="mt-3 mt-sm-0">
+												<div class="align-items-center align-items-sm-end d-flex flex-sm-column">
+													<div class="alert alert-info">x 1</div>
+													<div class="d-flex flex-column flex-fill justify-content-sm-center prix ps-2 ps-sm-0 pt-sm-1 text-end text-nowrap">
+														<div class="fw-bold">351,60 €<sup>HT</sup></div>
+														<div class="fs-12 lh-lg text-decoration-line-through text-warning">412,90 €<sup>HT</sup></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="bg-secondary border-bottom border-light border-start d-table-cell delete h-100"></div>
+								</div>
+							</div>
+							<div id="totaux" class="d-table w-100">
+								<div class="d-table-row">
+									<div class="align-bottom bg-secondary border-bottom border-light d-table-cell ps-2 ps-lg-6 py-2 py-lg-4 text-end text-nowrap text-white">Prix HT :</div>
+									<div class="align-bottom bg-secondary border-bottom border-light d-table-cell pe-4 pe-lg-6 ps-2 py-2 py-lg-4 text-end text-nowrap text-white total">1632,00 €</div>
+									<div class="bg-secondary border-bottom border-light border-start d-table-cell delete"></div>
+								</div>
+								<div class="d-table-row">
+									<div class="align-bottom bg-secondary border-bottom border-light d-table-cell ps-2 ps-lg-6 py-2 py-lg-4 text-end text-nowrap text-white">Livraison HT :</div>
+									<div class="align-bottom bg-secondary border-bottom border-light d-table-cell pe-4 pe-lg-6 ps-2 py-2 py-lg-4 text-end text-nowrap text-white total">0,00 €</div>
+									<div class="bg-secondary border-bottom border-light border-start d-table-cell delete"></div>
+								</div>
+								<div class="d-table-row">
+									<div class="align-bottom bg-secondary border-bottom border-light d-table-cell fw-bold ps-2 ps-lg-6 py-2 py-lg-4 text-end text-nowrap text-white">Prix total HT :</div>
+									<div class="align-bottom bg-secondary border-bottom border-light d-table-cell fw-bold pe-4 pe-lg-6 ps-2 py-2 py-lg-4 text-end text-nowrap text-white total">1632,00 €</div>
+									<div class="bg-secondary border-bottom border-light border-start d-table-cell delete"></div>
+								</div>
+								<div class="d-table-row">
+									<div class="align-bottom bg-primary border-bottom border-light d-table-cell fw-bold ps-2 ps-lg-6 py-2 py-lg-4 text-end text-nowrap text-white">Prix total TTC :</div>
+									<div class="align-bottom bg-primary border-bottom border-light d-table-cell fw-bold pe-4 pe-lg-6 ps-2 py-2 py-lg-4 text-end text-nowrap text-white total">1958,40 €</div>
+									<div class="bg-primary border-bottom border-light border-start d-table-cell delete"></div>
+								</div>
+								<div class="d-table-row">
+									<div class="align-bottom bg-primary d-table-cell ps-2 ps-lg-6 py-2 py-lg-4 text-end text-nowrap text-white">TVA :</div>
+									<div class="align-bottom bg-primary d-table-cell pe-4 pe-lg-6 ps-2 py-2 py-lg-4 text-end text-nowrap text-white total">326,40 €</div>
+									<div class="bg-primary border-light border-start d-table-cell delete"></div>
+								</div>
+							</div>
+							<div class="mt-4 mx-lg-n2 row">
+								<div class="col px-lg-2">
+									<div class="bg-white border-secondary border-top h-100 p-4 p-lg-6">
+										<div class="text-center">
+											<h2 class="fs-24 text-uppercase"><label for="livraison">Mode de livraison</label></h2>
+											<h3 class="fs-medium fw-normal lh-base mt-1">Veuillez sélectionner le mode de livraison désiré.</h3>
+										</div>
+										<div class="form-floating mt-4">
+											<select id="livraison" class="form-select">
+												<option value="">Livraison standard</option>
+											</select>
+											<label for="livraison">Livraison</label>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- if(adresses de livraison et de facturation identiques): -->
+							<div class="mt-4 mx-lg-n2 row">
+								<div class="col px-lg-2">
+									<div class="bg-white border-secondary border-top h-100 p-4 p-lg-6">
+										<div class="text-center">
+											<h2 class="fs-24 text-uppercase">Adresse de facturation et de livraison</h2>
+										</div>
+										<div class="mt-4 text-center">
+											<div class="fw-bold">M. Loïc Gries</div>
+											<div class="mt-1">
+												Animaweb
+												<br />31 route de la Wantzenau
+												<br />67800 Hoenheim
+												<br />0388668855
+												<br />France
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- else -->
+							<!-- <div class="mt-4 mx-lg-n2 row">
+								<div class="col-lg-6 px-lg-2">
+									<div class="bg-white border-secondary border-top h-100 p-4 p-lg-6">
+										<div class="text-center">
+											<h2 class="fs-24 text-uppercase">Adresse de facturation</h2>
+										</div>
+										<div class="mt-4 text-center">
+											<div class="fw-bold">M. Loïc Gries</div>
+											<div class="mt-1">
+												Animaweb
+												<br />31 route de la Wantzenau
+												<br />67800 Hoenheim
+												<br />0388668855
+												<br />France
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 mt-4 mt-lg-0 px-lg-2">
+									<div class="bg-white border-secondary border-top h-100 p-4 p-lg-6">
+										<div class="text-center">
+											<h2 class="fs-24 text-uppercase">Adresse de livraison</h2>
+										</div>
+										<div class="mt-4 text-center">
+											<div class="fw-bold">M. Stéphane Dumoulin</div>
+											<div class="mt-1">
+												Animaweb
+												<br />16 rue du Moulin
+												<br />59000 Lens
+												<br />France
+												<br />0388668855
+											</div>
+										</div>
+									</div>
+								</div>
+							</div> -->
+							<!-- endif -->
+							<div class="d-flex justify-content-between mt-4">
+								<a href="panier-3.html" class="btn btn-secondary">‹ Retour</a>
+								<a href="panier-5.html" class="btn btn-info">Continuer ›</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{{> footer }}
+		</div>
+		<noscript>
+			<div class="noscript">Javascript est désactivé. Pour bénéficier d'une meilleure navigation, veuillez activer Javascript dans votre navigateur</div>
+		</noscript>
+	</body>
+</html>
